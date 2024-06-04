@@ -1,0 +1,56 @@
+/* index.css */
+
+/* Simple reset for padding and margin */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic styling for the body element */
+body {
+    font-family: 'Arial', sans-serif; /* Use a common, web-safe font */
+    background-color: #f4f4f4; /* Light grey background for the app */
+    color: #333; /* Dark grey color for text for better readability */
+    line-height: 1.6; /* Spacing out lines a bit for readability */
+    padding: 20px; /* Padding around the content to prevent edge-to-edge text */
+}
+
+/* Styles for all buttons */
+button {
+    background-color: #007BFF; /* A pleasing blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; /* Slightly larger font size for readability */
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #0056b3; /* A darker shade of blue for the hover state */
+}
+
+/* Basic styles for inputs */
+input[type="text"],
+input[type="password"] {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding inside the inputs */
+    margin-top: 8px; /* Margin on top for spacing out elements */
+    margin-bottom: 16px; /* Margin on the bottom for spacing out elements */
+    display: inline-block;
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 4px; /* Rounded corners for aesthetics */
+    box-sizing: border-box; /* Border box for including padding in width */
+}
+
+/* Styling links for better visibility */
+a {
+    color: #007BFF;
+    text-decoration: none; /* Removing underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Adding underline on hover for distinction */
+}
